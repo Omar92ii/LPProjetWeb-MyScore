@@ -1,13 +1,14 @@
 package com.example.abdalla.myscore.competitionDetails_model;
 
 /**
- * Created by akat2 on 11-10-2017.
+ * Created by abdalla
  */
 
 public class fixtures_model {
 
-    String date;
+
     String status;
+    String date;
     String matchday;
     String homeTeamName, homeTeamURL;
     String awayTeamName, awayTeamURL;
