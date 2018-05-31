@@ -1,7 +1,7 @@
 package com.example.abdalla.myscore.competitionDetails_model;
 
 /**
- * Created by abdalla on 15-10-2017.
+ * Created by abdalla
  */
 
 public class team_model {
