@@ -1,7 +1,7 @@
 package com.example.abdalla.myscore.competitionDetails.competitionDetails_interface;
 
+import com.example.abdalla.myscore.competitionDetails.competitionDetails_model.table_model;
 
-import com.example.abdalla.myscore.competitionDetails_model.table_model;
 import java.util.ArrayList;
 
 /**

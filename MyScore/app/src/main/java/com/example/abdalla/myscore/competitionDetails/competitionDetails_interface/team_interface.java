@@ -1,6 +1,6 @@
 package com.example.abdalla.myscore.competitionDetails.competitionDetails_interface;
 
-import com.example.abdalla.myscore.competitionDetails_model.team_model;
+import com.example.abdalla.myscore.competitionDetails.competitionDetails_model.team_model;
 
 import java.util.ArrayList;
 
