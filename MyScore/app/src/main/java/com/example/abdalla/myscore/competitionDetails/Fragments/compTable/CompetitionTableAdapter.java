@@ -13,7 +13,7 @@ import com.example.abdalla.myscore.competitionDetails.competitionDetails_model.t
 import java.util.ArrayList;
 
 /**
- * Created by abdalla  10-2017.
+ * Created by abdalla
  */
 
 public class CompetitionTableAdapter extends RecyclerView.Adapter<ViewHolder> {

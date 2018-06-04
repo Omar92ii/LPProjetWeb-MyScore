@@ -10,7 +10,7 @@ import com.example.abdalla.myscore.competitionDetails.Fragments.compTable.Compet
 import com.example.abdalla.myscore.competitionDetails.Fragments.compTeam.CompetitionTeamFragment;
 
 /**
- * Created by abdalla on 09-10-2017.
+ * Created by abdalla
  */
 
 public class TabsPagerAdapter extends FragmentStatePagerAdapter {

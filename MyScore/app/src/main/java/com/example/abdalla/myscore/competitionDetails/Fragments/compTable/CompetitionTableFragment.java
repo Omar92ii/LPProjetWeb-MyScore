@@ -21,7 +21,7 @@ import com.example.abdalla.myscore.competitionDetails.competitionDetails_parser.
 import java.util.ArrayList;
 
 /**
- * Created by abdalla on 09-10-2017.
+ * Created by abdalla
  */
 
 public class CompetitionTableFragment extends Fragment implements table_interface {

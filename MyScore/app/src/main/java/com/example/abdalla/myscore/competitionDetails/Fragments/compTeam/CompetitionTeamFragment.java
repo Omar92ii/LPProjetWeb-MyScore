@@ -26,7 +26,7 @@ import com.example.abdalla.myscore.teamDetails.teamDetails;
 import java.util.ArrayList;
 
 /**
- * Created by abdalla on 09-10-2017.
+ * Created by abdalla
  */
 
 public class CompetitionTeamFragment extends Fragment implements team_interface {
