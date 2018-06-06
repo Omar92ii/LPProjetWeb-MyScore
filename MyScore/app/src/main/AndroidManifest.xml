@@ -23,38 +23,7 @@
             android:name=".listTeams.listTeams"
             android:label="@string/title_activity_list_teams"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".teamDetails.teamDetails"
-            android:label="@string/title_activity_team_details"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".fixturesList.fixturesList"
-            android:label="@string/title_activity_fixtures_list"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".SplashScreen.SplashScreen"
-            android:label="@string/title_activity_splash_screen"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".settings.settings"
-            android:label="@string/title_activity_settings"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".competitionDetails.CompetitionDetails"
-            android:label="@string/title_activity_competition_details"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity
-            android:name=".listCompetitionsDetails.listCompetitionsDetails"
-            android:label="@string/title_activity_list_competition_details"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+       
     </application>
 
 </manifest>
