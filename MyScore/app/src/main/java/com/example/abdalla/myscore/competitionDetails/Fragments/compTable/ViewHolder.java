@@ -24,7 +24,7 @@ import com.example.abdalla.myscore.utils.SvgSoftwareLayerSetter;
 import java.io.InputStream;
 
 /**
- * Created by abdalla  10-2017.
+ * Created by abdalla
  */
 
 public class ViewHolder extends RecyclerView.ViewHolder {

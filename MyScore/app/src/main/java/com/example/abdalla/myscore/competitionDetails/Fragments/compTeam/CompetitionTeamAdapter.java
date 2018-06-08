@@ -28,7 +28,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 
 /**
- * Created by abdalla  10-2017.
+ * Created by abdalla
  */
 
 public class CompetitionTeamAdapter extends BaseAdapter {
