@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abdalla.myscore.fixturesList.fixturesList"
+    tools:showIn="@layout/activity_fixtures_list"
+    android:orientation="vertical">
+
+    <com.github.badoualy.datepicker.DatePickerTimeline
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.github.badoualy.datepicker.DatePickerTimeline>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/navigation"
+            android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/fixtureslv"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:dividerHeight="8dp"
+            android:divider="@android:color/transparent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/fixtureslv_item2">
+        </ListView>
+
+        <TextView
+            android:id="@+id/noMatches"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:text="No matches"
+            />
+
+
+
+        </FrameLayout>
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            design:menu="@menu/menu_bottom_nav"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            design:itemIconTint="@color/drawer_item2"
+            design:itemTextColor="@color/drawer_item2"/>
+
+
+    </RelativeLayout>
+</LinearLayout>
