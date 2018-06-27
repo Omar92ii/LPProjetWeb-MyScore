@@ -5,22 +5,22 @@
         android:id="@+id/action_fixtures"
         android:icon="@drawable/ic_football_field"
         app:showAsAction="always"
-        android:title="Fixtures"/>
+        android:title="Rencontres"/>
     <item
         android:id="@+id/action_competition"
         android:icon="@drawable/ic_trophy"
         app:showAsAction="always"
-        android:title="Competitions"
+        android:title="Compétitions"
         />
     <item
         android:id="@+id/action_teams"
         android:icon="@drawable/ic_ribbon"
         app:showAsAction="always"
-        android:title="Teams"
+        android:title="Equipes"
         />
     <item
         android:id="@+id/action_about"
         android:icon="@mipmap/ic_settings"
         app:showAsAction="always"
-        android:title="Settings"/>
+        android:title="Paramètres"/>
 </menu>

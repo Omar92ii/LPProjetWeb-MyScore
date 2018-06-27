@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.abdalla.myscore.SplashScreen.SplashScreen"
+    tools:context="com.upmc.lpweb.myScore.SplashScreen.SplashScreen"
     tools:showIn="@layout/activity_splash_screen"
     android:background="@color/colorPrimary">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/ic_soccer"
+        android:src="@mipmap/logofkappli"
         android:layout_margin="120dp"/>
 
 

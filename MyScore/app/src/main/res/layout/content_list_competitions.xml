@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     xmlns:design="http://schemas.android.com/apk/res-auto"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.abdalla.myscore.listCompetitionsTeams.listCompetitionsTeams"
+    tools:context="com.upmc.lpweb.myScore.listCompetitionsTeams.listCompetitionsTeams"
     tools:showIn="@layout/activity_list_competitions">
 
         <RelativeLayout

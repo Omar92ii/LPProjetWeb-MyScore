@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">MyScore</string>
+    <string name="app_name">FootKorner</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="title_activity_no_connection">Pas de connexion</string>
+    <string name="title_activity_list_teams">Liste des equipes</string>
+    <string name="title_activity_team_details">Details par équipe</string>
+    <string name="title_activity_fixtures_list">Liste des rencontres</string>
+    <string name="title_activity_splash_screen">FootKorner</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="title_activity_competition_details">Details par compétition</string>
+    <string name="title_activity_list_competition_details">Compétitions</string>
 </resources>

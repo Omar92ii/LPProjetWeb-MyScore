@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.abdalla.myscore.competitionDetails.CompetitionDetails"
+    tools:context="com.upmc.lpweb.myScore.competitionDetails.CompetitionDetails"
     tools:showIn="@layout/activity_competition_details">
 
     <android.support.v4.view.ViewPager

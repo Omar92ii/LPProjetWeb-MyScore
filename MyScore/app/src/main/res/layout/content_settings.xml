@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     xmlns:design="http://schemas.android.com/apk/res-auto"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.abdalla.myscore.settings.settings"
+    tools:context="com.upmc.lpweb.myScore.settings.settings"
     android:orientation="vertical"
     tools:showIn="@layout/activity_settings">
     <RelativeLayout
@@ -34,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Don't Load Images"
+        android:text="Ne pas charger les logo"
         android:textColor="@color/black"
         android:textSize="16dp"
         />
@@ -48,9 +48,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="16dp"
+            android:textAlignment="center"
             android:layout_weight="1"
             android:textColor="@color/black"
-            android:text="Réalisé par Omar Abdalla and Redha Aïssaoui avec l'API football-data.org " />
+            android:text="Créer par Redha AISSAOUI et Omar ABDALLA, l'application utlise football-api.org " />
     </LinearLayout>
 
         </FrameLayout>
